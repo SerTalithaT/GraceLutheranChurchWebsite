@@ -1,0 +1,79 @@
+/* STYLE */
+@font-face
+{
+    font-family: "Starstruck";
+    src: url("css/fonts/starstruck.ttf");
+}
+
+:root
+{
+    --main-bg-color: #f5fbff;
+    --secondary-bg-color: #141419;
+    --accent1: #2dafdf;
+}
+
+/*BASE*/
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1em; 
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-bg-color);   
+    text-align: center; 
+
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+h1
+{
+    font: 1.5em;
+}
+
+/* HEADER */
+
+header
+{
+    background-color: var(--secondary-bg-color);
+    height: 525px;
+    color: white;
+    /* TODO tweak sizing and repsonsiveness of header intial size, based on screen size */
+}
+    
+
+header img
+{
+    padding: 20px;
+    width: 35%; /*consider adding changes to width based on screen size for middle res? */
+    min-width: 175px;
+}
+
+/* BOXES */
+#boxes
+{
+    margin-top: 20px;
+}
+
+#boxes .box
+{
+   float: left; 
+    width: 30%;
+    padding: 5px;
+}
+
+
+
